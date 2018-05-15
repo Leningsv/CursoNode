@@ -12,5 +12,16 @@ Sirve para el paso de parametros. Configuracion de comandos.
 ### Colors
 Sirve para poner color a consas imprimidas en la consola
 
+### Request
+Utilizada para hacer peticiones get, post, put.
+
+    npm install request
+
+
+### axios
+Utilizada para hacer peticiones get, post, put. trabaja en funcion de promesas.
+
+    npm install axios
+
 ### Video llamada
 http://doc-kurento.readthedocs.io/en/stable/tutorials/node/tutorial-one2many.html
