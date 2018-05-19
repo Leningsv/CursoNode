@@ -23,5 +23,9 @@ Utilizada para hacer peticiones get, post, put. trabaja en funcion de promesas.
 
     npm install axios
 
+### hbs
+
+    npm install hbs
+    
 ### Video llamada
 http://doc-kurento.readthedocs.io/en/stable/tutorials/node/tutorial-one2many.html
