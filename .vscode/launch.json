@@ -9,7 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${fileDirname}/server.js"
+            // "program": "${fileDirname}/server.js",
+            "program": "${file}"
         }
     ]
 }

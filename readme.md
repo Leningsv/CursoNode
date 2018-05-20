@@ -1,4 +1,10 @@
 # Paquetes Globales Instalados
+
+### Body-Parser
+Serializa un json a un objeto
+
+    npm install body-parser --save
+
 ### Nodemon
 Escucha los cambios y los compila imediatamente al guardar
     
