@@ -32,6 +32,34 @@ Utilizada para hacer peticiones get, post, put. trabaja en funcion de promesas.
 ### hbs
 
     npm install hbs
-    
+
+### Base Datos Mongo
+
+     cd C:\Program Files\MongoDB\Server\3.6\bin
+     mongod
+
+### Mongoose
+http://mongoosejs.com/
+https://www.npmjs.com/package/mongoose-unique-validator
+
+    npm i mongoose --save
+    npm i mongoose-unique-validator --save
+
+### bcrypt
+https://www.npmjs.com/package/bcrypt
+
+    npm i bcrypt --save
+
+### Underscore
+http://underscorejs.org/
+
+    npm install underscore --save
+
+### mlab
+https://mlab.com
+
 ### Video llamada
 http://doc-kurento.readthedocs.io/en/stable/tutorials/node/tutorial-one2many.html
+
+### Maquetacion Diagramas BDD
+https://www.draw.io/
