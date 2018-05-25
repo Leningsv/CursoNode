@@ -45,6 +45,15 @@ https://www.npmjs.com/package/mongoose-unique-validator
     npm i mongoose --save
     npm i mongoose-unique-validator --save
 
+### Heroku
+Adicion variables de entorno
+
+    heroku config:set MONGO_URI="XXXXXXX"
+ 
+    heroku config:get nombre
+    heroku config:unset nombre
+    heroku config:set nombre="Lenin"
+
 ### bcrypt
 https://www.npmjs.com/package/bcrypt
 
@@ -54,6 +63,15 @@ https://www.npmjs.com/package/bcrypt
 http://underscorejs.org/
 
     npm install underscore --save
+
+### JWT
+https://jwt.io/
+https://gist.github.com/Klerith/44ee5349fa13699d9c5f1e82b3be040e
+
+### JSONWEBTOKEN
+https://github.com/auth0/node-jsonwebtoken
+
+    npm install jsonwebtoken --save
 
 ### mlab
 https://mlab.com

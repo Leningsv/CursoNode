@@ -9,8 +9,9 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
-// importacion controladores
-app.use(require('./routes/usuario'));
+
+// Configuracion Global de rutas
+app.use(require('./routes/index'));
 
 mongoose.connect(process.env.URLDB, (err, res) => {
     if (err) {

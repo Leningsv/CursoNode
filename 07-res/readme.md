@@ -2,7 +2,7 @@
     git add .
     git commit -m "mensage commit"
     git push heroku master
-    heroku open --app afternoon-sea-
+    heroku open --app afternoon-sea-51319
     
     git tag -a -v0.0.0 -m "Mensaje"
-    git push --tags
+    git push --tagscd..
