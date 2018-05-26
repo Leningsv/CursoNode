@@ -73,6 +73,11 @@ https://github.com/auth0/node-jsonwebtoken
 
     npm install jsonwebtoken --save
 
+### Google Auth
+https://developers.google.com/identity/sign-in/web/backend-auth
+
+    npm install google-auth-library --save
+
 ### mlab
 https://mlab.com
 
