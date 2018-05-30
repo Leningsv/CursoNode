@@ -42,8 +42,8 @@ app.post('/login', (req, res) => {
         });
     });
 });
-// COnfiguraciones de Google
-async function verify(token) {
+// Cnfiguraciones de Google
+const verify = async function verify(token) {
     const ticket = await client.verifyIdToken({
         idToken: token,
         audience: process.env.CLIENT_ID, // Specify the CLIENT_ID of the app that accesses the backend
@@ -58,9 +58,9 @@ async function verify(token) {
         img: payload.picture,
         google: true
     }
-}
+};
 app.post('/google', async(req, res) => {
-    let token = req.body.idtoken;
+    const token = req.body.idtoken;
     let googleUser = await verify(token).catch(err => {
         res.status(403).json({
             ok: false,
